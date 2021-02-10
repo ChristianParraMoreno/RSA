@@ -20,3 +20,6 @@ Example: ``` encrypt(public, public2, "your message goes here")```.
 
 To decrypt the encrypted message use the funtion decrypt by giving it the two private keys and the array of encrypted letters.
 Example: ```print(decrypt(private, private2, encrypt(public, public2, "your message goes here")))```.
+
+
+As of right now it only supports messages with all lower case characters.
